@@ -19,7 +19,14 @@ setTimeout(() => {
                                     setTimeout(() => {
                                         document.querySelector("div").innerHTML = 1;
                                         setTimeout(() => {
-                                            document.querySelector("div").innerHTML = ("Happy Birthday NIRA !!!");
+                                            document.querySelector("div").innerHTML = ("Happy!!!");
+                                            setTimeout(() => {
+                                            document.querySelector("div").innerHTML = ("Birthday");
+                                                setTimeout(() => {
+                                            document.querySelector("div").innerHTML = ("NIRA !!!");
+                                        }, 1000);
+                                        }, 1000);
+                                            
                                         }, 1000);
                                     }, 1000);
                                 }, 1000);
